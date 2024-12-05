@@ -1,0 +1,95 @@
+/* Define a aparência geral do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #d8bfd8; /* Cor lilás para o fundo */
+    background-image: url('imagens/fundo.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Estilo do menu de navegação */
+header .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+header .menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Estilo das seções */
+section {
+    padding: 40px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco translúcido */
+    border-radius: 8px;
+}
+
+/* Títulos das seções */
+section h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Estilo da lista de portfólio */
+#portfolio ul {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+#portfolio .portfolio-imagem {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo do formulário */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #4b0082; /* Cor roxa escura */
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #6a0dad; /* Cor mais clara ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
