@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal com informações sobre mim, formação, portfólio e contato.">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com o menu de navegação -->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção "Sobre Mim" -->
+    <section id="sobre">
+        <h1>Sobre Mim</h1>
+        <p>Meu nome é [Seu Nome]. Sou apaixonado(a) por [área de interesse] e tenho como objetivo [seu objetivo pessoal/profissional].</p>
+        <p>Nos meus momentos livres, gosto de [seus hobbies].</p>
+    </section>
+
+    <!-- Seção "Formação" -->
+    <section id="formacao">
+        <h1>Formação</h1>
+        <p>Possuo formação em [sua formação acadêmica] e experiência em [área de atuação].</p>
+        <p>Idiomas: [idiomas que você fala].</p>
+    </section>
+
+    <!-- Seção "Portfólio" -->
+    <section id="portfolio">
+        <h1>Portfólio</h1>
+        <p>Abaixo estão alguns dos meus trabalhos:</p>
+        <ul>
+            <li><a href="https://linkdoproyecto1.com" target="_blank">Projeto 1</a></li>
+            <li><a href="https://linkdoproyecto2.com" target="_blank">Projeto 2</a></li>
+        </ul>
+        <!-- Espaço reservado para imagem ou links adicionais -->
+        <img src="imagens/exemplo.jpg" alt="Imagem representativa do portfólio" class="portfolio-imagem">
+    </section>
+
+    <!-- Seção "Contato" -->
+    <section id="contato">
+        <h1>Contato</h1>
+        <form id="formContato">
+            <!-- Campo para o nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <!-- Campo para o email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+            <!-- Campo para a mensagem -->
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+
+            <!-- Botão de envio -->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 - Meu Site</p>
+    </footer>
+</body>
+</html>
+
